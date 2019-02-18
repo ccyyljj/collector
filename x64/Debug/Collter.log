@@ -1,0 +1,13 @@
+﻿  mainwindow.cpp
+c:\12.5\collter\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\getfpgadata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\balisestructdefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\getfpgadata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\balisefre.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\12.5\collter\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+mainwindow.cpp(15): warning C4081: 应输入“newline”；找到“;”
+mainwindow.cpp(681): warning C4100: “column”: 未引用的形参
+mainwindow.cpp(681): warning C4100: “row”: 未引用的形参
+  Collter.vcxproj -> C:\12.5\Collter\debug\Collter.exe

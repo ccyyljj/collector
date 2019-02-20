@@ -1,13 +1,73 @@
-﻿  mainwindow.cpp
-c:\12.5\collter\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\getfpgadata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\balisestructdefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\getfpgadata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\balisefre.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\12.5\collter\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-mainwindow.cpp(15): warning C4081: 应输入“newline”；找到“;”
-mainwindow.cpp(681): warning C4100: “column”: 未引用的形参
-mainwindow.cpp(681): warning C4100: “row”: 未引用的形参
-  Collter.vcxproj -> C:\12.5\Collter\debug\Collter.exe
+﻿  Generate moc_predefs.h
+  Moc'ing balisedemod.h...
+  Moc'ing balisefre.h...
+  Moc'ing balisemanager.h...
+  Moc'ing dialog_changefreinfo.h...
+  Moc'ing getfpgadata.h...
+  Moc'ing mainwindow.h...
+  Moc'ing myTracer.h...
+  Moc'ing pcaploop.h...
+  Moc'ing qcustomplot.h...
+  Moc'ing trafficgetter.h...
+  Uic'ing choosenetdialog.ui...
+  Uic'ing dialog_changefreinfo.ui...
+  Uic'ing mainwindow.ui...
+  C:\gitPro\collector\sourceCode\mainwindow.ui: Warning: Z-order assignment: '' is not a valid widget.
+  balisedemod.cpp
+  balisefre.cpp
+balisefre.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\gitpro\collector\sourcecode\balisefre.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 balisefre.cpp)
+balisedemod.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\gitpro\collector\sourcecode\balisefre.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 balisefre.cpp)
+c:\gitpro\collector\sourcecode\balisedemod.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 balisedemod.cpp)
+  balisemanager.cpp
+  balisemsganalyse.cpp
+balisemanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\gitpro\collector\sourcecode\balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 balisemanager.cpp)
+c:\gitpro\collector\sourcecode\balisemsganalyse.h(3): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 balisemsganalyse.cpp)
+c:\gitpro\collector\sourcecode\balisemanager.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 balisemanager.cpp)
+  dialog_changefreinfo.cpp
+  getfpgadata.cpp
+getfpgadata.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+getfpgadata.cpp(2): fatal error C1083: 无法打开包括文件: “QThread”: No such file or directory
+c:\gitpro\collector\sourcecode\dialog_changefreinfo.h(4): fatal error C1083: 无法打开包括文件: “QDialog”: No such file or directory (编译源文件 dialog_changefreinfo.cpp)
+  main.cpp
+  mainwindow.cpp
+c:\gitpro\collector\sourcecode\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+c:\gitpro\collector\sourcecode\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 mainwindow.cpp)
+c:\gitpro\collector\sourcecode\mainwindow.h(4): fatal error C1083: 无法打开包括文件: “QMainWindow”: No such file or directory (编译源文件 main.cpp)
+c:\gitpro\collector\sourcecode\mainwindow.h(4): fatal error C1083: 无法打开包括文件: “QMainWindow”: No such file or directory (编译源文件 mainwindow.cpp)
+  myTracer.cpp
+  mycustomplot.cpp
+c:\gitpro\collector\sourcecode\qcustomplot.h(29): fatal error C1083: 无法打开包括文件: “QtCore/qglobal.h”: No such file or directory (编译源文件 mycustomplot.cpp)
+  pcaploop.cpp
+c:\gitpro\collector\sourcecode\myTracer.h(3): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 myTracer.cpp)
+  qcustomplot.cpp
+c:\gitpro\collector\sourcecode\qcustomplot.h(29): fatal error C1083: 无法打开包括文件: “QtCore/qglobal.h”: No such file or directory (编译源文件 qcustomplot.cpp)
+c:\gitpro\collector\sourcecode\pcaploop.h(3): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 pcaploop.cpp)
+  trafficgetter.cpp
+  moc_balisedemod.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../balisedemod.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_balisedemod.cpp)
+  moc_balisefre.cpp
+c:\gitpro\collector\sourcecode\trafficgetter.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 trafficgetter.cpp)
+  moc_balisemanager.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../balisefre.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_balisefre.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../balisemanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_balisemanager.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../balisefre.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_balisefre.cpp)
+  moc_dialog_changefreinfo.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../balisemanager.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_balisemanager.cpp)
+  moc_getfpgadata.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../getfpgadata.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_getfpgadata.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../dialog_changefreinfo.h(4): fatal error C1083: 无法打开包括文件: “QDialog”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_dialog_changefreinfo.cpp)
+  moc_mainwindow.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../getfpgadata.h(12): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_getfpgadata.cpp)
+  moc_myTracer.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Debug\moc_mainwindow.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../mainwindow.h(4): fatal error C1083: 无法打开包括文件: “QMainWindow”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_mainwindow.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../myTracer.h(3): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_myTracer.cpp)
+  moc_pcaploop.cpp
+  moc_qcustomplot.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../qcustomplot.h(29): fatal error C1083: 无法打开包括文件: “QtCore/qglobal.h”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_qcustomplot.cpp)
+  moc_trafficgetter.cpp
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../pcaploop.h(3): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_pcaploop.cpp)
+c:\gitpro\collector\sourcecode\generatedfiles\debug\../../trafficgetter.h(4): fatal error C1083: 无法打开包括文件: “QObject”: No such file or directory (编译源文件 .\GeneratedFiles\Debug\moc_trafficgetter.cpp)

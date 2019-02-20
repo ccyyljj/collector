@@ -65,6 +65,10 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Collter</TargetName>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\OPenGL\include;C:\WpdPack\Include;C:\fftw\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\fftw\lib;C:\OPenGL\lib;C:\WpdPack\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;.;..\..\WpdPack\Include;F:\SP++3.0\include;..\..\fftw\include;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include\QtPrintSupport;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include\QtWidgets;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include\QtGui;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include\QtANGLE;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\include\QtCore;release;\include;..\..\QT\QT5.9.1\5.11.1\MSVC2017_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -145,7 +149,7 @@
       <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\qtmaind.lib;shell32.lib;Opengl32.lib;glu32.lib;glut.lib;ws2_32.lib;C:\WpdPack\Lib;wpcap.lib;packet.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5PrintSupportd.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Widgetsd.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Guid.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\qtmaind.lib;shell32.lib;Opengl32.lib;glu32.lib;glut.lib;ws2_32.lib;wpcap.lib;packet.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5PrintSupportd.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Widgetsd.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Guid.lib;C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\QT\QT5.9.1\5.11.1\MSVC2017_64\lib;C:\openssl\lib;C:\Utils\my_sql\mysql-5.6.11-winx64\lib;C:\Utils\postgresql\pgsql\lib;$(QTDIR)\lib;;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
